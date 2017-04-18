@@ -1,13 +1,17 @@
 <?php
 
-
 namespace Vialoja\Helpers;
 
 
+/**
+ * Class DomainCheck
+ * @package Vialoja\Helpers
+ */
 class DomainCheck
 {
 
     /**
+     * Check
      * @param null $address
      * @return string
      */
