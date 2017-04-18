@@ -3,9 +3,16 @@
 namespace Vialoja\Helpers;
 
 
+/**
+ * Class Tools
+ * @package Vialoja\Helpers
+ */
 class Tools
 {
 
+    /**
+     * Set Locale Data
+     */
     public static function setLocalePortuguese()
     {
         setlocale(LC_ALL, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
@@ -21,6 +28,12 @@ class Tools
         return strftime('%d de %B de %Y às ', strtotime('today')) . date('H:i:s');
     }
 
+    /**
+     * Retorna o tamanho de uma string
+     * @param $str
+     * @param string $encoding
+     * @return bool|int
+     */
     public static function strlen($str, $encoding = 'UTF-8')
     {
         if (is_array($str))

@@ -3,6 +3,10 @@
 namespace Vialoja\Helpers;
 
 
+/**
+ * Class Validate
+ * @package Vialoja\Helpers
+ */
 class Validate
 {
 
@@ -31,6 +35,7 @@ class Validate
 
     /**
      * Check password commons
+     *
      * @param  string $pass password
      * @return bool true or false
      */
